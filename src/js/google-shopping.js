@@ -47,7 +47,7 @@ for (var i = 0; i < data.items.length; i++) {
 
 for (var j = 0; j < data.items.length; j++) {
   console.log(data.items[j].product.title
-   + ' ' + data.items[i].product.brand + ' '
+   + ' ' + data.items[j].product.brand + ' '
    + data.items[j].product.inventories[0].price
      + ' ' + data.items[j].product.images[0].link + '\n');
 }
