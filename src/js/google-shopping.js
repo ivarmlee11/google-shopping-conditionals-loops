@@ -1,6 +1,5 @@
 var data = require('../products.json');
 
-// Write your solutions below
 // Exercise 1
 
 var count;
@@ -13,7 +12,6 @@ console.log(count);
 
 // Exercise 2
 
-
 for (var i = 0; i < data.items.length; i++) {
   if (data.items[i].product.inventories[0].availability === 'backorder') {
     console.log(data.items[i].product.title);
@@ -21,7 +19,6 @@ for (var i = 0; i < data.items.length; i++) {
 }
 
 // Exercise 3
-
 
 for (var i = 0; i < data.items.length; i++) {
   if (data.items[i].product.images.length > 1) {
@@ -47,7 +44,6 @@ for (var i = 0; i < data.items.length; i++) {
 }
 
 // Exercise 6
-// Print all the products with their brand, price, and an image link
 
 for (var j = 0; j < data.items.length; j++) {
   console.log(data.items[j].product.title
