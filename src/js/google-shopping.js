@@ -2,7 +2,7 @@ var data = require('../products.json');
 
 // Exercise 1
 
-var count;
+var count = 0;
 for (var i = 0; i < data.items.length; i++) {
   if (data.items[i].kind === 'shopping#product') {
     count++;
@@ -18,7 +18,7 @@ for (var i = 0; i < data.items.length; i++) {
   }
 }
 
-// Exercise 3
+// // Exercise 3
 
 for (var i = 0; i < data.items.length; i++) {
   if (data.items[i].product.images.length > 1) {
@@ -26,7 +26,7 @@ for (var i = 0; i < data.items.length; i++) {
   }
 }
 
-// Exercise 4
+// // Exercise 4
 
 for (var i = 0; i < data.items.length; i++) {
   if (data.items[i].product.brand === 'Canon') {
@@ -34,7 +34,7 @@ for (var i = 0; i < data.items.length; i++) {
   }
 }
 
-// Exercise 5
+// // Exercise 5
 
 for (var i = 0; i < data.items.length; i++) {
   if (data.items[i].product.brand === 'Canon' &&
@@ -43,7 +43,7 @@ for (var i = 0; i < data.items.length; i++) {
   }
 }
 
-// Exercise 6
+// // Exercise 6
 
 for (var j = 0; j < data.items.length; j++) {
   console.log(data.items[j].product.title
